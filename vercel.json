@@ -2,15 +2,15 @@
   "rewrites": [
     {
       "source": "/dashboard",
-      "destination": "https://your-dashboard-vercel-app.vercel.app/"
+      "destination": "https://intraq-dashboard.vercel.app/dashboard/"
     },
     {
       "source": "/dashboard/:match*",
-      "destination": "https://your-dashboard-vercel-app.vercel.app/:match*"
+      "destination": "https://intraq-dashboard.vercel.app/dashboard/:match*"
     },
     {
       "source": "/:match*",
-      "destination": "https://your-landing-vercel-app.vercel.app/:match*"
+      "destination": "https://intraq-ui.vercel.app/:match*"
     }
   ]
 }
