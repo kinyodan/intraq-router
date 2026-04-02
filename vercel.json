@@ -18,6 +18,18 @@
       "destination": "https://intraq-dashboard.vercel.app/assets/:path*"
     },
     {
+      "source": "/favicon.ico",
+      "destination": "https://intraq-ui.vercel.app/favicon.ico"
+    },
+    {
+      "source": "/apple-touch-icon.png",
+      "destination": "https://intraq-ui.vercel.app/apple-touch-icon.png"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "https://intraq-ui.vercel.app/robots.txt"
+    },
+    {
       "source": "/",
       "destination": "https://intraq-ui.vercel.app/"
     },
